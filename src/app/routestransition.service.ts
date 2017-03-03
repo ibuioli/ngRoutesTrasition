@@ -228,7 +228,7 @@ export class RoutesTransition {
       clearInterval(intervalHandle);
     }, 1000);
   }
-  fromPop(from: string, to: string){
+  backPop(from: string, to: string){
     //Initial Set
     var intervalHandle = null;
     document.getElementById(from).style.position = 'fixed';
