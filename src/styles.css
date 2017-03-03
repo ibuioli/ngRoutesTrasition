@@ -1,0 +1,51 @@
+/*Simple CSS for Testing, delete the content if you will use this for your proyect*/
+html, body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100vh;
+  text-shadow:1px 1px 7px #444;
+}
+#home{
+  margin:0;
+  padding:0;
+  background:#eee;
+  width:100%;
+  height:100vh;
+}
+.cont{
+  position:relative;
+  top:30px;
+  background:#ddd;
+  width:50%;
+  height:auto;
+  margin:0 auto;
+  padding:5px 0 0 5px;
+  box-shadow:0 0 20px #333;
+  overflow:hidden;
+  border-radius:5px;
+}
+button{
+  background:#ccc;
+  border:1px solid #111;
+  width:150px;
+  font-size:18px;
+  cursor:pointer;
+  box-shadow:inset -1px -1px 6px #555;
+  border-radius:2px;
+}
+button:hover{
+  background:#eee;
+}
+li{
+  list-style-type: none;
+  margin-bottom:5px;
+}
+#new-section{
+  margin:0;
+  padding:10px 0 0 10px;
+  width:100%;
+  height:100vh;
+  background:#bbb;
+  position:relative;
+}
